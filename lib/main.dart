@@ -43,7 +43,7 @@ class Login extends StatelessWidget {
                   validator: (value) {
                     return (value != null && value.isNotEmpty)
                       ? null
-                      : 'Ingrese una contraseña valida';
+                      : 'Ingrese un usuario valida';
                   },
                   onChanged: (value) => loginFormProvider.usuario = value,
                 ),
